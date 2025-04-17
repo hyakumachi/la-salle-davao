@@ -1,6 +1,6 @@
-import React, { useRef } from 'react'
-import './Testimonials.css'
-import user_1 from '../../assets/user-1.jpg'
+import React, { useRef } from "react";
+import "./Testimonials.css";
+import user_1 from "../../assets/user-1.jpg";
 import user_2 from "../../assets/user-2.jpg";
 import user_3 from "../../assets/user-3.jpg";
 import user_4 from "../../assets/user-4.jpg";
@@ -8,23 +8,22 @@ import { IoMdArrowBack } from "react-icons/io";
 import { IoMdArrowForward } from "react-icons/io";
 
 const Testimonials = () => {
+  const slider = useRef();
+  let tx = 0;
 
-    const slider = useRef()
-    let tx = 0;
-
-    const slideForward = () => {
-        if (tx > -50) {
-            tx -= 25;
-        }
-        slider.current.style.transform = `translateX(${tx}%)`;
+  const slideForward = () => {
+    if (tx > -50) {
+      tx -= 25;
     }
+    slider.current.style.transform = `translateX(${tx}%)`;
+  };
 
-    const slideBackward = () => {
-        if (tx < 0) {
-          tx += 25;
-        }
-        slider.current.style.transform = `translateX(${tx}%)`;
+  const slideBackward = () => {
+    if (tx < 0) {
+      tx += 25;
     }
+    slider.current.style.transform = `translateX(${tx}%)`;
+  };
 
   return (
     <div className="testimonials">
@@ -108,6 +107,6 @@ const Testimonials = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Testimonials
+export default Testimonials;

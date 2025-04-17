@@ -1,11 +1,12 @@
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Navbar/Hero/Hero'
-import Programs from './components/Programs/Programs'
-import Title from './components/Title/Title';
-import About from './components/About/About';
-import Campus from './components/Campus/campus';
-import Testimonials from './components/Testimonials/Testimonials';
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Navbar/Hero/Hero";
+import Programs from "./components/Programs/Programs";
+import Title from "./components/Title/Title";
+import About from "./components/About/About";
+import Campus from "./components/Campus/campus";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Contact from "./components/Contact/contact";
 
 const App = () => {
   return (
@@ -21,9 +22,10 @@ const App = () => {
         <Title subTitle="TESTIMONIALS" title="What Our Students Think" />
         <Testimonials />
         <Title subTitle="CONTACT US" title="Connect With Us" />
+        <Contact />
       </div>
     </div>
   );
-}
+};
 
-export default App
+export default App;
