@@ -28,10 +28,10 @@ const Testimonials = () => {
   return (
     <div className="testimonials">
       <button className="next-btn" onClick={slideForward}>
-        <IoMdArrowForward />
+        <IoMdArrowForward size={20}/>
       </button>
       <button className="back-btn" onClick={slideBackward}>
-        <IoMdArrowBack />
+        <IoMdArrowBack size={20} />
       </button>
       <div className="slider">
         <ul ref={slider}>

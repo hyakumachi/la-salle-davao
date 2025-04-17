@@ -49,7 +49,7 @@ const Contact = () => {
             pacanza.berns4884@gmail.com
           </li>
           <li>
-            <FaPhoneAlt className="contact-icon" size={20} /> +639086775670
+            <FaPhoneAlt className="contact-icon" size={20} /> +639087775670
           </li>
           <li>
             <CiLocationOn className="contact-icon" size={20} /> Davao Global
