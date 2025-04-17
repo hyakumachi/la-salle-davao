@@ -15,7 +15,14 @@ const Hero = () => {
           learning, innovation, and service.
         </p>
         <button className="btn">
-          Explore More <FaArrowRight size={20} />
+          <a
+            href="https://www.dlsu.edu.ph/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="btn-a"
+          >
+            Explore More <FaArrowRight size={20} />
+          </a>
         </button>
       </div>
     </div>
