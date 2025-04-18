@@ -28,7 +28,7 @@ const Testimonials = () => {
   return (
     <div className="testimonials">
       <button className="next-btn" onClick={slideForward}>
-        <IoMdArrowForward size={20}/>
+        <IoMdArrowForward size={20} />
       </button>
       <button className="back-btn" onClick={slideBackward}>
         <IoMdArrowBack size={20} />

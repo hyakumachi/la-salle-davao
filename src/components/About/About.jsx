@@ -1,6 +1,6 @@
-import React from 'react'
-import './About.css'
-import about_img from '../../assets/about-img.jpg'
+import React from "react";
+import "./About.css";
+import about_img from "../../assets/about-img.jpg";
 import { CiPlay1 } from "react-icons/ci";
 
 const About = () => {
@@ -42,6 +42,6 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;
